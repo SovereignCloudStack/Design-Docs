@@ -2,8 +2,6 @@
 
 The objective of this document is to establish a common understanding of the monitoring architecture of the SCS stack. This document refers to various roles. These are defined in the [overall role definitions](https://github.com/SovereignCloudStack/Design-Docs/blob/master/terms_and_roles_identity_and_access_management.md).
 
-The SCS Stack is viewed upon in two layers: _infrastructure layer_ and the _container layer_.
-
 # Definitions
 
 The term _monitoring_ is used to describe methods that enable **Anomaly Detection**, provide
@@ -48,4 +46,9 @@ Aside from these roles there are further cases that will use data aggregated as 
 # Alerting
 
 Wether the source are logs, metrics or health checks alerts need to be aggregated and transported via the _alert routing_ to the provider-specific alerting engine. This allows the flexibility of each Provider coming with their specific alerting engine while keeping the alert routing within the SCS stack standardised.
+
+# Architecture 
+
+Monitoring happens on two layers: _infrastructure layer_ and the _container layer_. This is illustrated in [the overview diagram](https://github.com/SovereignCloudStack/Design-Docs/blob/wip-overview-monitoring-architecture/overview_monitoring_architecture.svg).
+Each layer has their own set of components to assure independence. 
 
