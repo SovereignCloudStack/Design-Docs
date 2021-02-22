@@ -19,11 +19,11 @@ Anomaly Detection       | x                   | x
 Operational Visibility  | x                   | x
 
 
-Monitoring as such includes:
+The term **monitoring** includes:
 
 * Healthcheck data (state)
 * Telemetry (metrics)
-* Centralised Log aggregation
+* Centralized Log aggregation
 
 
 # Roles
@@ -41,10 +41,11 @@ Developer               | -                 | x                 | -
 
 Aside from these roles there are further cases that will use data aggregated as part of the monitoring:
 
-* Provider Invoicing will need telemetry on usage data in order to provide billing
+* Provider Invoicing will need telemetry on usage data in order to provide billing.
 * The SCS vendor will need anonymized usage data on the overall SCS stack adoption.
 
 
 # Alerting
 
 Wether the source are logs, metrics or health checks alerts need to be aggregated and transported via the _alert routing_ to the provider-specific alerting engine. This allows the flexibility of each Provider coming with their specific alerting engine while keeping the alert routing within the SCS stack standardised.
+
