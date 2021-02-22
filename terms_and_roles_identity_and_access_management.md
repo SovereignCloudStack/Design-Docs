@@ -12,7 +12,10 @@ These terms were defined taking into account the GAIA-X definitions to ensure th
 
 term               | definition 
 -------------------|---------------
+Vendor             | Legal entity providing the SCS stack to Providers and the Community. Generally refered to as the SCS Project.
+Developer          | Person associated with the SCS project, actively working on the SCS stack.
 Provider           | Legal entity providing SCS to customers. The Provider is typically in control of physical infrastructure (Datacenter, Hosts, Storage, Network etc.) but also employs people who deploy and operate SCS.
+Integrator         | Legal entity which assists the Provider in bootstrapping the SCS environment.
 Consumer           | Legal entity which can access and/or consume services hosted on SCS. Typically a Consumer is a customer of a Provider.
 End User           | Person which accesses Services running on SCS. Typically a person knows about the Consumer entity and the services but not about SCS or the Provider. An End User might be an employee or customer of the Consumer.
 Identity           | An Idenity is a technical unique representation of an entity (a Person, a legal entity like a Consumer, or an technical entity like a Service). An Identity might need to be trustworthy, so the technical representation has to include a trust relationship.
@@ -23,6 +26,7 @@ Role               | A role is a set of Rights for Modules of SCS. Authorization
 Host               | A Host is a physical machine which is part of a Node. A Node consists of several Hosts.
 Node               | A Node is a deployment of SCS which offers Services for Customers and/or Endusers. A Node typically is a group of physical Hosts.
 Operator           | Person operating parts of SCS. Each Person is represented by an Identity. Access rights needed to operate are given by assigning an Identity to a Role.
+Supporter          | Person that is part of the Provider supporting the Consumer.
 
 # SCS modules / components
 
