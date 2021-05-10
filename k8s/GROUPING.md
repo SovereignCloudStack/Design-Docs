@@ -6,6 +6,6 @@ In order to keep the code of the update script generic and to make adding more t
 
 The actual wording of the prefix is not important for the grouping. For the sake of illustration, consider the following example:
 
-`priority-` or `iteration-` resulting in e. g. `priority-r0`/`priority-r1`/`priority-backlog` or `iteration-r0`/`iteration-r1`/`iteration-backlog`.
+`priority-` resulting in e. g. `priority-r0`/`priority-r1`/`priority-backlog`.
 
 The update script should be able to recognize this information and represent it accordingly in the dashboard output.
