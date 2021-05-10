@@ -4,7 +4,7 @@ Grouping of repositories on the CI dashboard should be implemented using Github 
 
 In order to keep the code of the update script generic and to make adding more topics/sections as simple as possible, a prefix for grouping should be used.
 
-The actual wording of the prefix is not important. For the sake of illustration, consider the following example:
+The actual wording of the prefix is not important for the grouping. For the sake of illustration, consider the following example:
 
 `priority-` or `iteration-` resulting in e. g. `priority-r0`/`priority-r1`/`priority-backlog` or `iteration-r0`/`iteration-r1`/`iteration-backlog`.
 
