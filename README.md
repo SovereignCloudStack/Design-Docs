@@ -1,3 +1,6 @@
+> **Warning**
+> Archived and merged into the [Docs](https://github.com/SovereignCloudStack/Docs) repository.
+
 # Design-Docs
 Design Documents, Architecture etc. for SCS and related technology
 
